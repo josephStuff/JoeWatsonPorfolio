@@ -1,0 +1,216 @@
+
+
+:root {
+  --title-font: "Bebas Neue", sans-serif;
+  --subtitle-font: "Fira Sans", sans-serif;
+  --jw-body-font: "Roboto", sans-serif;
+  --jw-primary-color: #91cbfb;
+  --jw-secondary-color: #4292ba;
+  --jw-dark-color: #212121;
+  --jw-light-color: #f8f8f8;
+  --jw-font-size: 1.2rem;
+  --jw-font-weight: 400;
+  --jw-line-height: 1.5;
+}
+
+/* ------ ELEMENT OVERIDES ------ */
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+  font-family: var(--title-font);
+}
+
+/* ----------------------------FOR ABOUT PAGE ----------------------- */
+/* 
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+} */
+/* ----------------------------ABOUT PAGE ABOVE------------------------- */
+
+body {
+  font-family: var(--jw-body-font);
+  font-size: var(--jw-font-size);
+  font-weight: var(--jw-font-weight);
+  line-height: var(--jw-font-height);
+  color: var(--jw-dark-color);
+  background-color: var(--jw-light-color);
+  --webkit-text-size-adjust: 100%;
+}
+
+/* BREAK POINTS
+2560x500
+1200x400
+992x300
+576x200
+375x150
+*/
+
+/* --styling the main title-- */
+
+/* SIZING THE LOGO FOR THE HEADER */
+
+  .mainHeader {
+    padding-top: calc(2em + 74px);
+    background-image: url(/img/shoulderPic_576.jpg);
+    height: 274px;
+    background-repeat: no-repeat;
+    background-position: left 0px top 74px;
+  }
+
+  .mainTitle {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    line-height: 1.5rem;
+  }
+
+  .subTitle {
+    font-family: var(--title-font);
+    font-size: 1rem;
+    line-height: 0.75rem;
+  }
+
+  .mainLogo {
+    height: 0.5em;
+  }
+
+/* ------------------------------------------------------MEDIA QUERIES--------------------------------------------- */
+
+/* SMALL DEVICES (LANDSCAPRE PHONES 576px and up) */
+
+
+@media (min-width: 575.98px) {
+  .mainHeader {
+    background-image: url(/img/ShoulderPic_768.jpg);
+    height: 200;
+  }
+  .mainTitle {
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  .subTitle {
+    font-family: var(--title-font);
+    font-size: 1.1rem;
+    line-height: 0.75rem;
+  }
+  .mainLogo {
+    height: 0.6em;
+  }
+}
+
+/* SMALL DEVICES  */
+@media (min-width: 767.98px) {
+  .mainHeader {
+    background-image: url(/img/ShoulderPic_992.jpg);
+    height: 374px;
+  }
+
+  .mainTitle {
+    font-family: var(--title-font);
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+  }
+  .subTitle {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    line-height: 1.5rem;
+  }
+  .mainLogo {
+    height: 0.6em;
+  }
+}
+
+
+/* SMALL */
+@media (min-width: 991.98px) {
+  .mainHeader {
+    background-image: url(/img/ShoulderPic_1200.jpg);
+    height: 474px;
+  }
+  .mainTitle {
+    font-family: var(--title-font);
+    font-size: 4rem;
+    line-height: 3rem;
+  }
+  .subTitle {
+    font-family: var(--title-font);
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  .mainLogo {
+    height: 0.7em;
+  }
+}
+
+/* SMALL */
+@media (min-width: 1199.98px) {
+  .mainHeader {
+    background-image: url(/img/shoulderPic_2560.jpg);
+    height: 574px;
+  }
+  .mainTitle {
+    font-family: var(--title-font);
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+  .subTitle {
+    font-family: var(--title-font);
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+  .mainLogo {
+    height: 0.7em;
+  }
+}
+
+/* SMALL */
+@media (min-width: 1399.98px) {
+  .mainHeader {
+    background-image: url(/img/shoulderPic_2560.jpg);
+    height: 574px;
+  }
+  .mainTitle {
+    font-family: var(--title-font);
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+  .subTitle {
+    font-family: var(--title-font);
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+  .mainLogo {
+    height: 0.5em;
+  }
+}
+
+
+/* --------------------- project cards styles---------------- */
+
+.projectCard {
+  width: 18rem;
+}
+
+
+
+
+
+
+
+
