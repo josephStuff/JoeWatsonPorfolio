@@ -161,7 +161,7 @@ body {
 /* SMALL */
 @media (min-width: 1199.98px) {
   .mainHeader {
-    background-image: url(/img/shoulderPic_2560.jpg);
+    background-image: url(/img/ShoulderPic_2560.jpg);
     height: 574px;
   }
   .mainTitle {
@@ -182,7 +182,7 @@ body {
 /* SMALL */
 @media (min-width: 1399.98px) {
   .mainHeader {
-    background-image: url(/img/shoulderPic_2560.jpg);
+    background-image: url(/img/ShoulderPic_2560.jpg);
     height: 574px;
   }
   .mainTitle {
