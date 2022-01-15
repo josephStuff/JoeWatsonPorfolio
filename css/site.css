@@ -187,13 +187,13 @@ body {
   }
   .mainTitle {
     font-family: var(--title-font);
-    font-size: 6rem;
-    line-height: 5rem;
+    font-size: 8rem;
+    line-height: 7rem;
   }
   .subTitle {
     font-family: var(--title-font);
-    font-size: 3rem;
-    line-height: 2rem;
+    font-size: 5rem;
+    line-height: 4rem;
   }
   .mainLogo {
     height: 0.5em;
