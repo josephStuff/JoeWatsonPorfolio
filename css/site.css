@@ -92,6 +92,11 @@ body {
     height: 0.5em;
   }
 
+  .section-page {
+    height: 100%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 /* ------------------------------------------------------MEDIA QUERIES--------------------------------------------- */
 
 /* SMALL DEVICES (LANDSCAPRE PHONES 576px and up) */
