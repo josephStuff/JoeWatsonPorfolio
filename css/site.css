@@ -30,6 +30,12 @@ h1,
 }
 /* ---------------------------------animations====================== */
 
+.fontTop {
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font: bold;
+  
+}
 
 
 /* ----------------------------FOR ABOUT PAGE ----------------------- */
@@ -56,13 +62,6 @@ body {
   --webkit-text-size-adjust: 100%;
 }
 
-/* BREAK POINTS
-2560x500
-1200x400
-992x300
-576x200
-375x150
-*/
 
 /* --styling the main title-- */
 

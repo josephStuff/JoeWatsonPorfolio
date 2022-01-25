@@ -54,6 +54,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
                  <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
@@ -64,7 +67,7 @@
 
     <!--Banner Image and Call To Action-->
 
-      <!--   align-items-center h-100-  -->
+      <!-------------------------   align-items-center h-100 -------------------------  -->
     <header class="mainHeader">
         <div class="container-md-fluid d-flex justify-content-end me-md-5 px-2">
             <div>
@@ -79,12 +82,12 @@
         </div>
     </header>
 
-    <!--All Sections Below-->
+    <!-------------------------------- All Sections Below ---------------------------->
 
     <main class="container">
-            <!-- ABOUT SECTION -->
-        <section class="section-page"id="about">
-            <h1>About Me</h1>
+            <!----------------------------------- ABOUT SECTION ---------------------------->
+        <section class="section-page" id="about">
+            <h1 class="pt-5 border-bottom border-3 fontTop d-flex justify-content-center">About Me</h1>
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <picture>
@@ -127,9 +130,9 @@
                 </div>
         </section>
 
-            <!-- SKILLS SECTION -->
+            <!-------------------------------- SKILLS SECTION ------------------------------>
         <section class="section-page" id="skills">
-            <h1>My Skills</h1>
+            <h1 class="pt-5 d-flex justify-content-center border-bottom border-3 fontTop">My Skills</h1>
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div>
@@ -161,7 +164,7 @@
                             <li>Design Interactive Sites</li>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-4 pt-3">
                     <div>
                         <img src="/img/Bootstrap.png" alt="...">
                         <h3>Bootstrap</h3>
@@ -171,7 +174,7 @@
                             <li></li>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-4 pt-3">
                       <div>
                         <img src="/img/SQL.png"  alt="...">
                         <h3>SQL Database</h3>
@@ -184,11 +187,11 @@
             </div>
         </section>
 
-            <!-- PORTFOLIO SECTION -->
+            <!----------------------------------- PORTFOLIO SECTION -------------------------->
         <section class="section-page" id="portfolio">
             <div class="row">
                 <div class="col-12">
-                    <h1>Portfolio</h1>
+                    <h1 class="pt-5 border-bottom border-3 d-flex justify-content-center fontTop">Portfolio</h1>
                     <p>
                         Showcasing complete functional projects demonstrates what I
                         can bring to your project. I built these projects from the
@@ -251,9 +254,76 @@
             </div>
         </section>
 
-            <!-- CONTACT SECTION -->
+        <!-- ------------------------  PROJECTS SECTION ------------------- -->
+        <section class="section-page" id="projects">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="pt-5 border-bottom border-3 d-flex justify-content-center fontTop">PROJECTS</h1>
+                    <p>
+                        Showcasing complete functional projects demonstrates what I
+                        can bring to your project. I built these projects from the
+                        ground up to demonstrate skill front-end, back-end, security
+                        and database development. All these projects are fullstack
+                        web projects that are built so that you can demo them
+                        easily. Contact me to get a complete code walkthrough.
+                    </p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 gy-3">
+
+                <!------------------- Bug Tracker--------------- -->
+                <div class="col d-flex justify-content-center justify-content-md-start">
+                    <div class="card projectCard">
+                        <img src="/img/codingchallenge_Superdog.jpg" class="card-img-top img-fluid" alt=""/>
+                        <div class="card-body">
+                            <h5 class="card-title">Bug tracker</h5>
+                            <p class="card-text">
+                                A full stack feature rich bug tracker built with ASP.NET MVC, C# and SQL.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BugTrackerModal">Launch Demo Modal</button>                
+                        </div>
+                    </div>
+                </div>
+
+                <!--------------------- expense tracker ------------------ -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card projectCard">
+                        <img src="/img/codingchallenge_fizzbuzz.jpg" class="card-img-top img-fluid" alt=""/>
+                        <div class="card-body">
+                            <h5 class="card-title">Fizz Buzz</h5>
+                            <p class="card-text">
+                                A Full Stack personal budgeting app built with asp.net MVC, C# and SQL.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ExpenseTrackerModal">Launch Demo Modal</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------------------------- Blogging card------------------------- -->
+                <div class="col d-flex justify-content-center justify-content-md-end">
+                    <div class="card projectCard">
+                        <img src="/img/codingchallenge_Notary.jpg" class="card-img-top img-fluid" alt=""/>
+                        <div class="card-body">
+                            <h5 class="card-title">Word Reverse</h5>
+                            <p class="card-text">
+                                A Full Stack complete Blogging platform built with asp.net MVC, C# and SQL.
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BloggingModal">Launch Demo Modal</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <!------------------------ CONTACT SECTION ----------------------->
         <section class="section-page" id="contact">
-                <h1>Contact Me</h1>
+                <h1 class="pt-5 d-flex justify-content-center fontTop">Contact Me</h1>
                 <div class="p-2 row border rounded shadow-lg" id="formContainingDiv">
                     <form name="contactForm" class="row">
                         <div class="col-12">
@@ -494,7 +564,7 @@
         </div>
     </div>
 
-    <!-- BOLGGING PAGE MODAL---- -->
+    <!------------------------------------ BLoGGING PAGE MODAL -------------------------- -->
     <div class="modal fade" id="BloggingModal" tabindex="-1" aria-labelledby="BloggingModalLabel" area-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-md-down">
             <div class="modal-content">
@@ -507,7 +577,7 @@
                             <div class="row">
                                 <div class="col-12 col-md-5">
 
-                                    <!-- CAROUSEL -->
+                                    <!--------------- CAROUSEL ------------------>
                                                                         
                                     <div id="carouselBlogging" class="carousel carousel-dark slide" data-bs-ride="carousel">
                                         <div class="carousel-indicators">
