@@ -37,7 +37,12 @@ h1,
   
 }
 
-
+div>li {
+  font-weight: 700;
+  font-family: var(--subtitle-fontfont);
+  font: bold;
+  padding-bottom: 1;
+}
 /* ----------------------------FOR ABOUT PAGE ----------------------- */
 /* 
 main>.container {
