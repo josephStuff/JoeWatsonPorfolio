@@ -41,7 +41,7 @@ div>li {
   font-weight: 700;
   font-family: var(--subtitle-fontfont);
   font: bold;
-  padding-bottom: 1;
+  padding-bottom: 1rem;
 }
 /* ----------------------------FOR ABOUT PAGE ----------------------- */
 /* 
