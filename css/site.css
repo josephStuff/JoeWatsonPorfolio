@@ -11,6 +11,7 @@
   --jw-font-size: 1.2rem;
   --jw-font-weight: 400;
   --jw-line-height: 1.5;
+  --jw-social-color: rgb(6, 245, 26);
 }
 
 /* ------ ELEMENT OVERIDES ------ */
@@ -219,3 +220,15 @@ body {
   width: 18rem;
 }
 
+/*  -------------- SOCIAL ICONS STYLING ----------------- */
+
+footer .social>a {
+    color: var(--jw-social-color);
+    opacity: .50;
+
+}
+
+footer .social>a:hover {
+    color: var(--jw-social-color);
+    opacity: 1;
+}
