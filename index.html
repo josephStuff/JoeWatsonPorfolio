@@ -277,7 +277,7 @@
 
                 <!-------------------  SUPER EVENT MANAGER --------------- -->
                 <div class="col d-flex justify-content-center justify-content-md-start">
-                    <div class="card projectCard rounded shadow">
+                    <div class="card projectCard rounded shadow" data-tilt data-tilt-glare data-tilt-max-glare="8">
                         <img src="/img/superNumbers.png" class="card-img-top img-fluid" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Event Manager</h5>
@@ -292,7 +292,7 @@
                 </div>
 
                 <!--------------------- FIZZ BUZZ CARD ------------------ -->
-                <div class="col d-flex justify-content-center">
+                <div class="col d-flex justify-content-center tilted">
                     <div class="card projectCard rounded shadow">
                         <img src="/img/fizzbuzz.png" class="card-img-top img-fluid" alt=""/>
                         <div class="card-body">
@@ -308,7 +308,7 @@
                 </div>
 
                 <!-------------------------- TACO CAT card------------------------- -->
-                <div class="col d-flex justify-content-center justify-content-md-end">
+                <div class="col d-flex justify-content-center justify-content-md-end tilted" data-tilt>
                     <div class="card projectCard rounded shadow">
                         <img src="/img/tacocat.png" class="card-img-top img-fluid" alt=""/>
                         <div class="card-body">
@@ -1016,18 +1016,8 @@
 
     </script>
 
-    
-    <script type="text/javascript">
-        VanillaTilt.init(document.querySelector(".your-element"), {
-            max: 25,
-            speed: 400
-        });
-        
-        //It also supports NodeList
-        VanillaTilt.init(document.querySelectorAll(".your-element"));
-    </script>
 
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript" src="/js/site.js"></script>
 
 </body>
 
