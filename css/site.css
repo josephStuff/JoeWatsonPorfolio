@@ -11,7 +11,7 @@
   --jw-font-size: 1.2rem;
   --jw-font-weight: 400;
   --jw-line-height: 1.5;
-  --jw-social-color: rgb(6, 245, 26);
+  --jw-social-color: rgb(41, 171, 247);
 }
 
 /* ------ ELEMENT OVERIDES ------ */
@@ -34,8 +34,7 @@ h1,
 .fontTop {
   font-weight: 700;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font: bold;
-  
+  font: bold;  
 }
 
 div>li {
@@ -224,7 +223,7 @@ body {
 
 footer .social>a {
     color: var(--jw-social-color);
-    opacity: .50;
+    opacity: .60;
 
 }
 
